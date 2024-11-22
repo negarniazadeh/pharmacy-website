@@ -321,8 +321,7 @@ body{
 
 #sm-banner{
     display: flex;
-    justify-content: center;
-    column-gap: 5%;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 #sm-banner .banner-box{
@@ -330,13 +329,12 @@ body{
      flex-direction: column;
      justify-content: center;
      align-items:flex-start;
-     padding-right: 40%;
+     padding-left: 3%;
      background-image: url(./img/bn3.jpg);
-     min-width: 580px;
+     min-width: 49%;
      height: 50vh;
      background-size: cover;
      background-position: center;
-     padding: 30px;
 }
 #sm-banner .banner-box2{
     background-image: url(./img/bn2.jpg);
@@ -361,4 +359,34 @@ body{
 #sm-banner .banner-box:hover button{
     background: #088178;
     border: 1px solid #088178;
+}
+#banner3 .banner-box{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:flex-start;
+     padding-right: 40%;
+     background-image: url(./img/bn4.jpg);
+     min-width: 30%;
+     height: 30vh;
+     background-size: cover;
+     background-position: center;
+     padding: 20px;
+     margin-bottom: 20px;
+}
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+#banner3 h3{
+    color: #064092;
+    font-weight: 800;
+    font-size: 12px;
 }
