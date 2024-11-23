@@ -131,6 +131,7 @@ body{
     width: 100%;
     display: flex;
     background: #e3e6f3de;
+    overflow: hidden;
 }
 .hero .left{
     padding-left: 50px;
@@ -181,6 +182,7 @@ body{
     border: 1px solid #cce7da;
     border-radius: 4px;
     margin: 15px 0;
+    cursor: pointer;
 }
 #feature .fe-box:hover{
     box-shadow: 10px 10px 54px rgba(70, 62,221, 0.1);
@@ -435,4 +437,52 @@ body{
     white-space: nowrap;
     border-top-left-radius: 0 ;
     border-bottom-left-radius: 0 ;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px ;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px ;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+footer .follow i:hover,
+footer a:hover{
+    color: #088178;
 }
