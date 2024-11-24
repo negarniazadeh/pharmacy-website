@@ -574,7 +574,7 @@ footer a:hover{
         margin: 15px ;
     }
     #banner {
-        height: 25vh;
+        height: 30vh;
     }
     #sm-banner .banner-box {
         min-width: 100%;
@@ -588,5 +588,46 @@ footer a:hover{
     }
     #newsletter .form {
         width: 70%;
+    }
+}
+
+@media (max-width: 477px){
+    .section-p1 {
+        padding: 20px;
+    }
+    #header {
+        padding: 10px 30px;
+    }
+    .hero .left {
+        background-position: 15%;
+        backdrop-filter: blur(10px);
+    }
+    .hero .left p {
+     display: none ;
+    }
+    #feature .fe-box {
+        width: 155px;
+        margin:0 0 15px 0;
+    }
+    #feature {
+        justify-content: space-between;
+    }
+    #product1 .pro {
+        width: 100%;
+    }
+    #banner {
+        height: 40vh;
+    }
+    #banner3 {
+        padding: 0 20px;
+    }
+    #banner3 .banner-box {
+        width: 100%;
+    }
+    #newsletter .form {
+        width: 100%;
+    }
+    #newsletter {
+       padding: 40px 35px ;
     }
 }
