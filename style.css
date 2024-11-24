@@ -124,6 +124,14 @@ body{
     left: 20px;
 }
 
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+
 
 /* home page */
 
@@ -485,4 +493,100 @@ footer .install img{
 footer .follow i:hover,
 footer a:hover{
     color: #088178;
+}
+
+
+/* start home page responsive */
+
+@media (max-width:799px){
+    .section-p1 {
+        padding: 40px 40px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+    #lg-bag{
+        display: none;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero .left {
+        text-align: center;
+        padding-bottom: 5% ;
+        padding-left: 0;
+        padding-top: 35%;
+        background-image: url(./img/back\ hero.png);
+        background-repeat: no-repeat;
+    }
+    .hero .right img {
+       display: none;
+    }
+    .hero .left h2 {
+       display: none;
+    }
+    #feature {
+        justify-content: center;
+    }
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+        margin: 15px ;
+    }
+    #banner {
+        height: 25vh;
+    }
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+    }
+    #sm-banner {
+       row-gap: 10px;
+    }
+    #banner3 {
+        padding: 0 40px;
+    }
+    #newsletter .form {
+        width: 70%;
+    }
 }
