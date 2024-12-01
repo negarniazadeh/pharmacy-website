@@ -709,4 +709,17 @@ footer a:hover{
     #newsletter {
        padding: 40px 35px ;
     }
+
+    /*  single product  */
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+    }
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
 }
