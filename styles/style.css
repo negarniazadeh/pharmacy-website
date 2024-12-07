@@ -885,7 +885,18 @@ footer a:hover{
     #newsletter .form {
         width: 70%;
     }
+
+    /* contact page responsive */
+
+    #form-details {
+        padding: 40px;
+    }
+    #form-details form {
+        width: 50%;
+    }
 }
+
+
 
 @media (max-width: 477px){
     #product1 .pro img{
@@ -977,5 +988,27 @@ footer a:hover{
     }
     #about-app .video {
         width: 100%;
+    }
+
+    /* contact page responsive */
+
+    #contact-details {
+        flex-direction: column;
+    }
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #contact-details .map {
+        width: 100%;
+    }
+    #form-details {
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 30px 10px;
+    }
+    #form-details form {
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
